@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 
 const LayoutAuth = () => {
   return (
-    <div>LayoutAuth
+    <div className='min-h-screen flex justify-center items-center'>
         <Outlet />
     </div>
   )
